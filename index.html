@@ -149,8 +149,8 @@
                                                     <li class="tab_nav tab_video width4 no_extra" :class="[{selected:showMenuContentMsgType===4}]" data-type="15" data-tab=".js_videoArea" data-tooltip="视频"> <a href="javascript:void(0);" @click="content_msg_tab_nav(4)">&nbsp;<i class="icon_msg_sender"></i><span class="msg_tab_title">视频</span></a> </li>
                                                     <li class="tab_nav">
                                                         <label>KEY:</label>
-                                                        <input style="width: 200px" type="text" v-if="activeMenuType() == 1 && isSet(menu.button[activeMenuIndex])" v-model="menu.button[activeMenuIndex].key" value="">
-                                                        <input style="width: 200px" type="text" v-if="activeMenuType() == 2 && isSet(menu.button[activeMenuIndex].sub_button[activeMenuItemIndex])" v-model="menu.button[activeMenuIndex].sub_button[activeMenuItemIndex].key" value="">
+                                                        <input style="width: 190px" type="text" v-if="activeMenuType() == 1 && isSet(menu.button[activeMenuIndex])" v-model="menu.button[activeMenuIndex].key" value="">
+                                                        <input style="width: 190px" type="text" v-if="activeMenuType() == 2 && isSet(menu.button[activeMenuIndex].sub_button[activeMenuItemIndex])" v-model="menu.button[activeMenuIndex].sub_button[activeMenuItemIndex].key" value="">
                                                     </li>
                                                 </ul>
                                             </div>
